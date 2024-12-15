@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px;
+}
+
+nav{
+      box-shadow: 4px 4px 4px #000;
+}
+
+.element {
+      color: white;
+}
+
+body{
+      width: 100%;
+      height: 100vh;
+      background-color: #111926;
+}
+
+
+.circle__img{
+      background-color: #10111F;
+      width: 175px;
+      height: 175px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #20DDA4;
+      position: relative;
+}
+.circle__img::after{
+      content: '';
+      width: 175px;
+      height: 3px;
+      background-color: #20DDA4;
+      position: absolute;
+      top: 50%;
+      left: 100%;
+     z-index: -1;
+}
+.top__left,
+.top__right{
+      width: 423px;
+      height: 321px;
+      background-image: url('./src/assets/brat.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      padding: 20px;
+}
+.scrol1{
+      position: absolute;
+      top: 40%;
+      left: -30px;
+}
+.scrol2{
+      position: absolute;
+      top: 40%;
+      right: -30px;
+}
+.plays{
+      position: absolute;
+      top: 40%;
+      left: 40%;
+}
+.bottom__left{
+      position: relative;
+}
+.first{
+      position: absolute;
+      top: 40%;
+      left: -60px;
+}
+.second{
+      position: absolute;
+      top: 40%;
+      left: 820px;
+}
+
+
+
+
+
+
+
+
+    
+  
+    
+ 
+    
+ 
+    
+    
